@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'furzik/testPR6'
+        DOCKER_IMAGE = 'furzik/testpr6'
         DOCKER_CREDENTIALS_ID = 'imm'
     }
 
