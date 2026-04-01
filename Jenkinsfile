@@ -3,11 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'furzik/testPR6'
-<<<<<<< HEAD
         DOCKER_CREDENTIALS_ID = 'imm'
-=======
-        DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
->>>>>>> 777712c8f4081d40b0217d4bf77511a1f6ff808d
     }
 
     stages {
